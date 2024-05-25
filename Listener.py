@@ -17,8 +17,8 @@ async def foo_bar(side, pair_name, entry_price1, entry_price2, target_price1, ta
     print("Target Prices: ",target_price1," " ,target_price2," " ,target_price3,"\n")
     print("Stop Loss: ",stop_loss,"\n")
     
-    api_key = 'tOpTOtvOnJcmIp6n2NiN2Ceh1pgXjUpdcZbyrZYdHsaxiggiahs80vtbMhdPO97n'
-    api_secret = 'm8h3f8EgFlcbdoTW5CD8K1J04Z57Sg1oSQIJTZ6p1o5HA3JPy53oVLZcvPqBrUmO'
+    api_key = ''
+    api_secret = ''
     
     binance_client = Client(api_key, api_secret)
     
@@ -61,8 +61,8 @@ async def foo_bar(side, pair_name, entry_price1, entry_price2, target_price1, ta
 
 
 async def login():
-    api_id = 28134961
-    api_hash = '81bb5d269eab1d7604e469d1a5bf5a03'
+    api_id =
+    api_hash = ''
 
     # Use your own API_ID and API_HASH from https://my.telegram.org/apps
     client = TelegramClient('crypto1', api_id, api_hash)
